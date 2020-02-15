@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:padding="15dp">
+	
+	<TextView
+		android:id="@+id/editview_label"
+		android:layout_height="50sp"
+		android:layout_width="match_parent"
+		android:text="用户登录"
+		android:textSize="32sp"
+		android:textColor="#00aadd"
+		android:gravity="center">
+		
+	</TextView>
+	
+	<EditText
+		android:id="@+id/editview_UName"
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:hint="用户名/手机号/邮箱"
+		android:inputType="textEmailAddress"
+		android:textSize="16sp"
+		android:textColor="#000000"
+		android:drawableLeft="@drawable/username"
+		android:drawablePadding="5dp"
+		android:background="@drawable/bg_username"
+		android:layout_below="@id/editview_label"
+		android:layout_marginTop="30dp">
+		
+	</EditText>
+	<EditText
+		android:id="@+id/editview_UPassword"
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:hint="密码"
+		android:inputType="textPassword"
+		android:textSize="16sp"
+		android:textColor="#000000"
+		android:drawableLeft="@drawable/password"
+		android:drawablePadding="5dp"
+		android:background="@drawable/bg_username"
+		android:layout_below="@id/editview_UName"
+		android:layout_marginTop="10dp">
+
+	</EditText>
+	<Button
+		android:id="@+id/editview_login"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="@drawable/bg_btn3"
+		android:text="登录"
+		android:textColor="#ff00aa"
+		android:layout_below="@id/editview_UPassword"
+		android:layout_marginTop="10dp">
+		
+	</Button>
+    
+</RelativeLayout>

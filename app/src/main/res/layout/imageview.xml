@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<Button
+		android:id="@+id/imageview_exit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="返回"
+		android:textSize="18sp"/>
+	<ImageView
+		android:id="@+id/imageview_iv1"
+		android:layout_width="130dp"
+		android:layout_height="100dp"
+		android:src="@drawable/micro"
+		android:background="#000000"
+		android:layout_below="@id/imageview_exit"
+		android:scaleType="fitXY"
+		android:layout_marginBottom="10dp"/>
+	
+	<ImageView
+		android:id="@+id/imageview_iv2"
+		android:layout_width="130dp"
+		android:layout_height="100dp"
+		android:src="@drawable/micro"
+		android:background="#000000"
+		android:scaleType="fitCenter"
+		android:layout_marginBottom="10dp"
+		android:layout_below="@id/imageview_iv1"/>
+	<ImageView
+		android:id="@+id/imageview_iv3"
+		android:layout_width="130dp"
+		android:layout_height="100dp"
+		android:src="@drawable/micro"
+		android:background="#000000"
+		android:scaleType="centerCrop"
+		android:layout_marginBottom="10dp"
+		android:layout_below="@id/imageview_iv2"/>
+	<ImageView
+		android:id="@+id/imageview_iv4"
+		android:layout_width="130dp"
+		android:layout_height="100dp"
+		android:background="#000000"
+		android:scaleType="centerCrop"
+		android:layout_marginBottom="10dp"
+		android:layout_below="@id/imageview_iv3"/>
+    
+    
+</RelativeLayout>

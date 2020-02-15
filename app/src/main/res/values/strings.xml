@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp2</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="editview">EditView</string>
+	<string name="radiobutton">RadioButton</string>
+	<string name="boxbutton">BoxButton</string>
+	<string name="imageview">ImageButton</string>
+	<string name="listview">ListButton</string>
+	<string name="gridview">GridView</string>
+	<string name="recycleview">RecycleView</string>
+	<string name="linearview">LinearView</string>
+	<string name="horizontalview">HorizontalView</string>
+	<string name="exit">退出程序</string>
+	<string name="gridrecycleview">GridView</string>
+	<string name="purecycleview">PuGridView</string>
+	<string name="webview">WebView</string>
+	<string name="toastview">ToastView</string>
+	<string name="dialogview">DialogView</string>
+	<string name="main2view">Main2View</string>
+	<string name="progressview">ProgressView</string>
+	<string name="customdialogview">CustomDialogView</string>
+	<string name="popupview">PopUpWindowView</string>
+	<string name="liftcycleview">LiftcycleView</string>
+	
+</resources>

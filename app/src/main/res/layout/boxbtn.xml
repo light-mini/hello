@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:padding="15dp">
+	
+	<TextView
+		android:id="@+id/boxbtn_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="你会什么语言开发？"
+		android:textColor="#2077ff"
+		android:textSize="24sp"
+		android:layout_marginBottom="24dp"/>
+	<CheckBox
+		android:id="@+id/boxbtn_android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Android"
+		android:layout_below="@id/boxbtn_title"
+		android:layout_marginBottom="10dp">
+		
+	</CheckBox>
+	<CheckBox
+		android:id="@+id/boxbtn_IOS"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="IOS"
+		android:layout_below="@id/boxbtn_android"
+		android:layout_marginBottom="10dp">
+
+	</CheckBox>
+	<LinearLayout
+		android:id="@+id/boxbtnLinearLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_below="@id/boxbtn_IOS">
+		<TextView
+			android:id="@+id/boxbtn_title1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="你的兴趣？"
+			android:textColor="#2077ff"
+			android:textSize="24sp"
+			android:layout_marginBottom="24dp"/>
+		<CheckBox
+			android:id="@+id/boxbtn_eat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="吃"
+			android:button="@drawable/bg_box"
+			android:paddingLeft="10dp"
+			android:layout_below="@id/boxbtn_title"
+			android:layout_marginBottom="10dp">
+
+		</CheckBox>
+		<CheckBox
+			android:id="@+id/boxbtn_sleep"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="睡"
+			android:layout_below="@id/boxbtn_android">
+
+		</CheckBox>
+		
+	</LinearLayout>
+    
+</RelativeLayout>

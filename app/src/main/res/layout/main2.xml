@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<Button
+			android:id="@+id/exit_main"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/exit"/>
+		
+		<Button
+			android:id="@+id/mainTo_Recycle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/recycleview"
+			android:textAllCaps="false"/>
+		
+		<Button
+			android:id="@+id/mainTo_Web"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/webview"
+			android:textAllCaps="false"/>
+		
+		<Button
+			android:id="@+id/mainTo_Toast"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/toastview"
+			android:textAllCaps="false"/>
+		<Button
+			android:id="@+id/mainTo_Dialog"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/dialogview"
+			android:textAllCaps="false"/>
+		<Button
+			android:id="@+id/mainTo_Progress"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/progressview"
+			android:textAllCaps="false"/>
+		<Button
+			android:id="@+id/mainTo_CustomDialog"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/customdialogview"
+			android:textAllCaps="false"/>
+		<Button
+			android:id="@+id/mainTo_PopupWindow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/popupview"
+			android:textAllCaps="false"/>
+		<Button
+			android:id="@+id/mainTo_liftcycle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/liftcycleview"
+			android:textAllCaps="false"/>
+	</LinearLayout>
+
+</ScrollView>

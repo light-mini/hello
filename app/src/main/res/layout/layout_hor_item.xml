@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:background="@color/COLOR_WHITE">
+
+	<TextView
+		android:id="@+id/title_rh"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:textSize="20sp"
+		android:textColor="@color/COLOR_BLACK"
+		android:gravity="center"/>
+
+</LinearLayout>
